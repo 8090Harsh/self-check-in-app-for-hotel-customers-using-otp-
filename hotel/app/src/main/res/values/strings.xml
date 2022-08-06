@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HOTEL</string>
+    <string name="book_a_room">Room</string>
+    <string name="dialog_title">Room available in Hotel</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+
+    <string-array name="Available_Room">
+        <item>Room 401 AC</item>
+        <item>Room 402 AC</item>
+        <item>Room 403 AC</item>
+        <item>Room 404 AC</item>
+        <item>Room 405 AC</item>
+        <item>Room 501 NON AC</item>
+        <item>Room 502 NON AC</item>
+        <item>Room 503 NON AC</item>
+        <item>Room 504 NON AC</item>
+        <item>Room 505 NON AC</item>
+        <item>601 Royal Suite</item>
+        <item>701 Presidential Suite</item>
+    </string-array>
+
+
+</resources>

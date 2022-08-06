@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity11">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="232dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="CHECK-IN DETAILS"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/images" />
+
+    <TextView
+        android:id="@+id/textroom"
+        android:layout_width="223dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textroom"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/texttime"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textdate"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="95dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Room : "
+        android:textColor="#123AA1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textroom"
+        app:layout_constraintEnd_toStartOf="@+id/textroom"
+        app:layout_constraintTop_toTopOf="@+id/textroom" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="89dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Date : "
+        android:textColor="#123AA1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textdate"
+        app:layout_constraintEnd_toStartOf="@+id/textdate"
+        app:layout_constraintTop_toTopOf="@+id/textdate" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="94dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Time :  "
+        android:textColor="#123AA1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/texttime"
+        app:layout_constraintEnd_toStartOf="@+id/texttime"
+        app:layout_constraintTop_toTopOf="@+id/texttime" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Room number may vary "
+        android:textColor="#123AA1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texttime"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="314dp"
+        android:layout_height="32dp"
+        android:text="*Show this page at the checkin counter to recieve the room key"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="*Only one Checkin using one EmailId"
+        android:textColor="#123AA1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

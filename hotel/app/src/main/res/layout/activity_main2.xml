@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btncheckin"
+        android:layout_width="301dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="160dp"
+        android:background="#123AA1"
+        android:text="Check In"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="332dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="WELCOME"
+        android:textColor="#065271"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="337dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="ENSURING SAFE SOCIAL DISTANCING WHILE OFFERING THE CONTACTLESS  CHECKIN"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="LogOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btncheckin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        app:srcCompat="@drawable/hoo" />
+
+    <Button
+        android:id="@+id/btnDtl"
+        android:layout_width="301dp"
+        android:layout_height="34dp"
+        android:background="#123AA1"
+        android:text="CheckIn Details"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncheckin"
+        app:layout_constraintVertical_bias="0.339" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

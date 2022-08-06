@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity9">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#C1F6F0F0"
+        android:hint=" CheckIn Date"
+        android:textAlignment="center"
+        android:textColor="#032365"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <Button
+        android:id="@+id/btnSltRoom"
+        android:layout_width="213dp"
+        android:layout_height="41dp"
+        android:background="#032365"
+        android:text="next"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365"
+        app:srcCompat="@drawable/images" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="00:00 PM"
+        android:inputType="text|time"
+        android:textAlignment="center"
+        android:textColor="#032365"
+        app:layout_constraintBottom_toTopOf="@+id/btnSltRoom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:text="Date :"
+        android:textColor="#032365"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate"
+        app:layout_constraintTop_toTopOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:text="Time : "
+        android:textColor="#032365"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTime"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTime"
+        app:layout_constraintTop_toTopOf="@+id/editTextTime"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Select Check In Date and Time"
+        android:textAlignment="center"
+        android:textColor="#123AA1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
